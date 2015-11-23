@@ -1,5 +1,7 @@
 # iotlab-html
 
+Node.js frontend and backend of the UH CS IoT Lab web site
+
 Authors
 -------
 

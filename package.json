@@ -2,29 +2,20 @@
   "name": "iotlab",
   "version": "0.1.0",
   "private": true,
-  "main": "server/server.js",
+  "main": "main.js",
   "scripts": {
     "pretest": "jshint .",
     "start": "node ."
   },
   "dependencies": {
-    "compression": "^1.0.3",
-    "cors": "^2.5.2",
-    "iothub": "git+https://github.com/uh-cs-iotlab/node-iothub.git",
-    "iotmarket": "git+https://github.com/uh-cs-iotlab/node-iotmarket.git",
-    "loopback": "^2.22.0",
-    "loopback-boot": "^2.6.5",
-    "loopback-component-explorer": "^2.1.0",
-    "loopback-connector-mongodb": "^1.13.0",
-    "loopback-datasource-juggler": "^2.39.0",
-    "serve-favicon": "^2.0.1"
+    "express": "^4.13.4"
   },
   "devDependencies": {
     "jshint": "^2.5.6"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/uh-cs-iotlab/iotlab-html.git"
   },
-  "description": "iotlab"
+  "description": "UH IoT Lab website"
 }

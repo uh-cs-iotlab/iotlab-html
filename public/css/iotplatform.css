@@ -1,0 +1,23 @@
+td.bad {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+td.medium {
+    background-color: rgba(255, 157, 0, 0.2);
+}
+
+td.good {
+    background-color: rgba(0, 255, 0, 0.2);
+}
+
+.dataTables_length label, .dataTables_length label select {
+    display: inline;
+    width: auto;
+    height: auto;
+}
+
+.image em {
+    width: auto;
+    text-align: center;
+}
+
